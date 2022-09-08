@@ -66,6 +66,7 @@
 // console.log("The quick brown fox jumps over the lazy dog".match(/\S/g).length); // 35
 // console.log("The quick brown fox jumps over the lazy dog...".match(/\S/g).length); // 38
 // console.log("The quick brown fox jumps over the lazy dog\/<>|~!@#$%^&*()_=+-".match(/\S/g).length); // 54
+// const emailRegex = /\S+@\S+\.\S+/; // matches [text]@[text].[text]
 // // === {}
 // console.log(/Oh{1} no/.test("O no")); // false
 // console.log(/Oh{1} no/.test("Oh no")); // true
